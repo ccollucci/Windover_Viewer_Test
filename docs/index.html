@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Windover ACC Viewer Test</title>
+  <link
+    rel="stylesheet"
+    href="https://developer.api.autodesk.com/modelderivative/v2/viewers/style.min.css"
+    type="text/css"
+  />
+  <style>
+    body { margin: 0; overflow: hidden; }
+    #logo {
+      position: absolute;
+      top: 10px; left: 10px;
+      width: 150px; z-index: 1;
+    }
+    #viewer { width: 100vw; height: 100vh; }
+  </style>
+</head>
+<body>
+  <img id="logo" src="assets/WindoverLogo.jpg" alt="Windover Logo" />
+  <div id="viewer"></div>
+
+  <script src="https://developer.api.autodesk.com/modelderivative/v2/viewers/7.*/viewer3D.min.js"></script>
+  <script src="viewer.js"></script>
+</body>
+</html>
