@@ -1,0 +1,30 @@
+{
+  "name": "windover_viewer_test",
+  "version": "1.0.0",
+  "description": "1. **Fork/clone** this repo.\r 2. Copy your logo into `public/assets/WindoverLogo.jpg`.\r 3. Create a `.env` in the root of `server/`:\r FORGE_CLIENT_ID=tdFeSiKcoeBxs8CUdzAL2koc95V5uuoe5sL69jcpbGPRs9hA\r FORGE_CLIENT_SECRET=UEWLx7GvAQ21kRknA9M1F59aAK0IBz1bQxKPL3xs0m6rlaH8b9TL35b2N20NWe1B\r 4. From the **project root** run:\r ```bash\r cd server\r npm install",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+  "test": "echo \"Error\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccollucci/Windover_Viewer_Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccollucci/Windover_Viewer_Test/issues"
+  },
+  "homepage": "https://github.com/ccollucci/Windover_Viewer_Test#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
