@@ -7,8 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "node server/server.js",
-  "test": "echo \"Error\""
+    "start": "node server/server.js"    
   },
   "repository": {
     "type": "git",
